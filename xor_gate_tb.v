@@ -21,7 +21,7 @@ module xor_gate_tb;
         .y(y)
     );
     
-    // Hardcoded reference logic (same AND behavior)
+    // Hardcoded reference logic
   assign y_ref = a^b^c^d;
   
   // Mismatch = 1 if output is wrong
